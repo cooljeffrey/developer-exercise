@@ -1,0 +1,27 @@
+{
+  "name": "developer-exercise",
+  "version": "1.0.0",
+  "description": "exercise",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts data.csv",
+    "prettier": "prettier --write **/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cooljeffrey/developer-exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cooljeffrey/developer-exercise/issues"
+  },
+  "homepage": "https://github.com/cooljeffrey/developer-exercise#readme",
+  "devDependencies": {
+    "@types/node": "^11.13.7",
+    "prettier": "^1.17.0",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {}
+}
